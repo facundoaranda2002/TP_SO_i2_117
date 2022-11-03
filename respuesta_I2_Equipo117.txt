@@ -48,7 +48,7 @@ git rebase upstream/main (como surgio un conflicto en el fork.txt , tuve que arr
 subo el repositorio actualizado con el punto e
 git add .
 git commit -m"punto e"
-git push
+git push -f origin main
 
 
 
