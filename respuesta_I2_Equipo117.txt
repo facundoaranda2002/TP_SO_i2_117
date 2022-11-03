@@ -16,3 +16,114 @@ d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quie
 el fork?
 No, no se puede.
 
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+
+Juan Ignacio Barraza:
+Creo el fork: Por GitHub
+
+Descargo el repositorio de forma local:
+git clone https://github.com/juanbarraza78/TP_SO_i1_117.git
+
+Edito un archivo txt y luego actualizo mi repositorio
+
+git add .
+git commit -m "Commit"
+git push
+
+Actualizo mi repositorio con los cambios hecho por beta(Dueño)
+
+git remote add upstream https://github.com/facundoaranda2002/TP_SO_i2_117.git
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+actualizo el archivo de las respuestas y subo las mias.
+
+git remote add upstream https://github.com/facundoaranda2002/TP_SO_i2_117.git
+git fetch upstream
+git checkout main
+git rebase upstream/main (como surgio un conflicto en el fork.txt , tuve que arreglarlo manualmente y hacer el comando rebase --continue )
+
+subo el repositorio actualizado con el punto e
+git add .
+git commit -m"punto e"
+git push
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Francisco Allende:
+1) Se uso github
+2) Se uso github para el fork. Se uso
+git clone --> para traerlo a local
+
+ya modificado, para subir los cambios
+
+git add *
+git commit -m "gamma punto 2"
+git push
+
+5) Para actualizar el repo forkeado de Beta, tanto Gamma como Alfa hicmos:
+
+git remote add upstream https://github.com/facundoaranda2002/TP_SO_i2_117.git
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+Para subir las respuestas a las preguntas de la parte 4, su usaron los comandos
+
+git add *
+git commit -m "subo respuestas"
+git push
+
+actualizo el archivo de las respuestas y subo las mias.
+
+git remote add upstream https://github.com/facundoaranda2002/TP_SO_i2_117.git 
+git fetch upstream
+git checkout main
+git rebase upstream/main
+
+subo el repositorio actualizado con el punto a y b
+git add .
+git commit -m"gamma punto"
+git push
+
+------------------------------------------------------------------------------------------------------------
+
+Facundo Aranda:
+Creo el repositorio por gitHub:
+
+Descargo el repositorio de forma local:
+git clone https://github.com/facundoaranda2002/TP_SO_i2_117.git
+
+Creo el archivo txt y actualizo y pusheo mi repositorio:
+git add . 
+git commit -m "primer commit"
+git add . 
+git commit -m "primer commit"
+git push
+
+git pull(No afecto, pero sirvio para darnos cuenta de que los forks no modifican el repositorio original)
+
+Creo archivo NuevoDato.txt:
+git add .
+git commit -m "nuevo commit"
+git push
+
+actualizo el archivo de las respuestas y subo las mias.
+
+git remote add upstream https://github.com/francisco-allende/TP_SO_i2_117.git
+git fetch upstream
+git checkout main
+git rebase upstream/main
+
+subo el repositorio actualizado con el punto c y d
+git add .
+git commit -m"nuevo commit"
+git push
+
+
+
