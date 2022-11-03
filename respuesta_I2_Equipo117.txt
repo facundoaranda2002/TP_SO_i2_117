@@ -7,7 +7,7 @@ git merge upstream/main
 Se puede hacer "git checkout main" antes del merge para chequear que estemos apuntando a la misma branch
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
-No, no puede ya que nuestros repos forkeados apunta a Beta
+Si, si puede.
 
 
 
